@@ -41,5 +41,5 @@ Opcionais:
 Quanto a infraestrutura, a sua aplicação deve estar publicada no Vercel (https://vercel.com/) e seu código deve estar acessível em sua conta do Github. 
 Não iremos considerar a entrega de uma aplicação que não esteja publicada e de um código que não esteja no Github, de modo que possamos avaliar a evolução do seu código, ou seja, não aceitaremos a entrega funcionando apenas em Localhost. 
 
-#Deploy:
+# Deploy:
 https://shadforth.github.io/vue-pokedex/
