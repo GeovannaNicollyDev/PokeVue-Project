@@ -1,80 +1,32 @@
-# Vue Pokédex [![Maintainability](https://api.codeclimate.com/v1/badges/fb4793225019f84f2383/maintainability)](https://codeclimate.com/github/shadforth/vue-pokedex/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/fb4793225019f84f2383/test_coverage)](https://codeclimate.com/github/shadforth/vue-pokedex/test_coverage) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/shadforth/vue-pokedex/issues)
+# PokeVue 
 
-A Pokédex made for fun in Vue.js.
+# Objetivo:
+O app deverá ser desenvolvido utilizando: 
+Vue.JS;
+HTML + CSS + JS + Bootstrap (opcionalmente);
+API https://pokeapi.co/
 
-View live at: https://shadforth.github.io/vue-pokedex
+O app deverá ser dotado das seguintes funcionalidades:
 
-The Pokédex includes the first 251 Pokémon, with:
+Listagem dos Pokémon com scroll infinito, contendo filtros para nome, id, tipo e espécie;
+O app deve contar com suporte aos idiomas português, inglês e espanhol, disponíveis na API;
+Abrir um card do Pokémon na listagem;
 
-- Descriptions and types
-- Base statistics
-- Special attacks
-- Evolutionary forms
-- Audio samples
+No card: 
 
-<img src="screenshot_v2.png" alt="Vue Pokédex" style="max-width:65%;margin: 0 auto;">
+Todos os sprites do Pokémon; 
+Seus movimentos de ataque;
+Visualizar às evoluções de cada Pokémon, se houver;
+Visualizar todos os games (game_indices) que aquele Pokémon está presente.
 
-## Getting Started
+Você poderá usar quaisquer bibliotecas que desejar para acelerar o seu desenvolvimento.
 
-### Prerequisites
+Opcionais: 
 
-- Node.js &amp; npm
+Se conseguir, escreva testes automatizados simples;
+Se conseguir, implemente internacionalização;
+Se conseguir, utilize VueX para gerenciamento de estado;
+Se conseguir, torne a aplicação responsiva.
 
-To download Node.js and npm, visit the [Node.js downloads page](https://nodejs.org/en/download/) and select the version labelled **LTS**.
-
-After installing Node.js, run the following command to verify that everything has been installed correctly.
-
-```bash
-npm -v && node -v
-```
-
-### Running the application
-
-```bash
-# Download project dependencies
-npm install
-
-# Run the application on localhost:8080
-npm run serve
-```
-
-### Key files and folders
-
-```
-  .
-  ├── docs/              # Compiled application for GitHub Pages
-  ├── public/            # Static assets
-  ├── src/               # Main Vue application files
-  |   ├── assets/        # Audio, sprites, global CSS
-  |   |   └── ...
-  |   ├── components/    # Vue components
-  |   ├── json/
-  |   |   └── data.json  # Scraped Pokédex data
-  |   ├── App.vue
-  |   ├── event-bus.js   # Connector to pass data b/n children
-  |   └── tests/         # Unit tests
-  ├── README.md
-  └── package.json       # Requirements for npm installation
-```
-
-## To do
-
-- [x] Deploy to GitHub Pages
-- [x] Set up unit tests
-- [ ] Set up e2e tests
-- [ ] Add the remaining 551 Pokémon
-- [ ] Add strengths and weaknesses
-- [ ] Add evolutionary requirements (i.e. Moon Stone, etc.)
-
-## Contributions
-
-All contributions welcome. 😃
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- [Veekun](https://veekun.com/dex/downloads) - Pokémon sprites, icons, and audio
-- [BrunnerLivio](https://github.com/BrunnerLivio) - Pokémon JSON data
+Quanto a infraestrutura, a sua aplicação deve estar publicada no Vercel (https://vercel.com/) e seu código deve estar acessível em sua conta do Github. 
+Não iremos considerar a entrega de uma aplicação que não esteja publicada e de um código que não esteja no Github, de modo que possamos avaliar a evolução do seu código, ou seja, não aceitaremos a entrega funcionando apenas em Localhost. 
