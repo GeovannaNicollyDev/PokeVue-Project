@@ -1,4 +1,5 @@
-# PokeVue 
+![PokeVueLogo](https://github.com/GeovannaNicollyDev/PokedexVue/assets/129456783/eff07ca3-40e4-441a-ad8f-9b76d6250e4a)
+
 
 # Objetivo:
 O app deverá ser desenvolvido utilizando: 
