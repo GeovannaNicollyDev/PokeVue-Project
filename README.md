@@ -5,6 +5,7 @@
 O app deverá ser desenvolvido utilizando: 
 Vue.JS;
 HTML + CSS + JS + Bootstrap (opcionalmente);
+
 API https://pokeapi.co/
 
 O app deverá ser dotado das seguintes funcionalidades:
